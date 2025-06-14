@@ -1,0 +1,2 @@
+all:
+	g++ -g -o main ./repl.cpp ./src/arena.cpp ./src/ast.cpp ./src/bnf.tab.c ./src/builtin_fns.cpp ./src/builtin_types.cpp ./src/dfalg_out.c ./src/eval_ast.cpp ./src/lexer.cpp ./src/runtime.cpp ./src/types.cpp ./src/yylex_wrapper.cpp ./src/builtin/array.cpp ./src/builtin/bool.cpp ./src/builtin/context.cpp ./src/builtin/function.cpp ./src/builtin/lambda.cpp ./src/builtin/number.cpp ./src/builtin/string.cpp
